@@ -46,3 +46,41 @@
   font-family: "Playfair Display", serif;
   font-family: "Recursive", sans-serif;
 }
+
+
+.parallax {
+  
+  background-image: url("hsp.jpg");
+
+  min-height: 500px; 
+
+ 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+}
+
+
+.inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100px;
+  height: 100px;
+  -webkit-transform: translate(-50%, -50%);  
+  transform: translate(-50%, -50%); 
+  font-family: "Playfair Display", serif;
+  font-family: "Recursive", sans-serif;
+    
+  
+ 
+
+}
+ #our{
+  font-family: "Playfair Display", serif;
+  font-family: "Recursive", sans-serif;
+
+ }
