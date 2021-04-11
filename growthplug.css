@@ -57,6 +57,7 @@
   background-size: cover;
   position: relative;
   text-align: center;
+  z-index: 100;
 }
 
 .inner {
