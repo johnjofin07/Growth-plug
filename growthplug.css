@@ -27,9 +27,8 @@
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
 
-  font-family: "Playfair Display", serif;
-  font-family: "Recursive", sans-serif;
-  font-weight: 600;
+  font-family: "Merriweather", serif;
+  font-weight: 700;
   z-index: 500;
 }
 
@@ -47,14 +46,11 @@
   font-family: "Recursive", sans-serif;
 }
 
-
 .parallax {
-  
   background-image: url("hsp.jpg");
 
-  min-height: 500px; 
+  min-height: 500px;
 
- 
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -63,24 +59,18 @@
   text-align: center;
 }
 
-
 .inner {
   position: absolute;
   top: 50%;
   left: 50%;
   width: 100px;
   height: 100px;
-  -webkit-transform: translate(-50%, -50%);  
-  transform: translate(-50%, -50%); 
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   font-family: "Playfair Display", serif;
   font-family: "Recursive", sans-serif;
-    
-  
- 
-
 }
- #our{
+#our {
   font-family: "Playfair Display", serif;
   font-family: "Recursive", sans-serif;
-
- }
+}
