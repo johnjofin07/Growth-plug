@@ -37,9 +37,10 @@
 }
 
 .logo {
+
   
-  height: 30%;
-  width: 30%;
+  height: auto;
+  width: 300px;
   margin-top: 15%;
 }
 
