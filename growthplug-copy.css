@@ -1,5 +1,9 @@
+
+
+
+
 #main {
-    width: 100vw;
+    width: 100%;
 }
 .navbar {
   position: fixed;
@@ -24,13 +28,42 @@
 
 }
 
+.tooth__img {
+
+  
+  width:100vw ;
+  background-image: url("tooth.jpg");
+
+  min-height: 780px;
+ 
+
+  background-position: center;
+
+  background-size: cover;
+
+  text-align: center;
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(tooth.jpg);
+
+}
+
+.logo {
+  height: 200px;
+  width: 500px;
+  margin-top: 15%;
+}
+
+.logo__text {
+  color: #007357;
+}
+
 
 .float__btn {
     
   position: fixed;
-  top: 12%;
-  margin-left: 88%;
-  border-radius: 20px;
+  top: 80px;
+  right: 20px;
+  border-radius: 10px;
   border-color: #0865a3;
   background-color: #0865a3;
   padding: 10px;
@@ -38,57 +71,54 @@
   color: aliceblue;
 }
 
-.btn-btn-primary {
+.apoinment__button {
   font-weight: 600;
   border-radius: 10px;
-              padding: 15px;
+              padding: 12px;
               border-color: rgb(255, 255, 255);
               border-width: 5px;
               font-family: 'Merriweather', serif;
               background-color: rgb(61, 81, 255);
               color: white;
+              margin-top: 50px;
 }
 
-.img__button{
-    display:flex;
-    justify-content: center;
-  
-   
+
     
-    letter-spacing:5px;
+  
+.newpatient__div {
+  margin: 30px auto;
 }
-.newpatient { 
-  text-align: center; font-family: 'Merriweather', serif
+    
+
+.newpatien__hd { 
+  text-align: center; font-family: 'Merriweather', serif;
+  margin-top: 30px;
 }
 
 .newpatient__sub {
   text-align: center;
             font-weight: 400;
             color: rgb(148, 148, 148);
+            margin-top: 20px;
 }
 
-.grid__intro__btncontainer {
-    display: flex;
-    height: 100px;
-    justify-content: center;
-    justify-content: center;
-    align-items: center;
 
-}
-.grid__intro__btncontainer > div {
-  padding: 30px;
   
+.grid__intro__btncontainer {
+  align-items: center;
 }
+
+
 .intro__btn {
-    padding: 10px;
-    width: 300px;
-    font-size: larger;
-    font-weight: 600;
-    font-family: "Merriweather", serif;
-    letter-spacing:2px;
+  
+  font-size: larger;
+  font-weight: 500;
+  width: 200px;
+  margin: 20px 20px;
+  
+
 }
-
-
 
 
 
@@ -97,83 +127,75 @@
 
 
 .dr {
-    background-color: rgb(225, 255, 225)
+  margin-top: 30px;
 }
+
+
 
 .dr__name {
-  text-align: center; font-family: 'RocknRoll One', sans-serif
+  text-align: center; 
+  margin-top: 40px;
 }
 
-.dr__imgwidth {
-  width: 40%;
- 
+.dr__name__li {
+  text-align: center; 
+  margin-top: 100px;
 }
+
+
+
 
 .dr__img {
-  width: 400;
-  height: 400; margin-left: 15%
+  max-width: 350px;
+  height: 350px;
+  margin-top: 100px; 
 }
 
+.dr__btn__div {
+  margin-top: 40px;
+
+  
+  
+}
 .dr__btn {
   font-weight: 500;
-              margin-left: 50%;
-              margin-top: -36px;
+              
               padding: 10px;
               width: 300px;
               font-size: larger;
+              
+
 }
 
 .dr__para {
-  float: right;
-            margin-left: 45%;
-            margin-right: 5%;
-            margin-top: -30%;
+  
+            
+           
+            margin-top: 30px; 
+}
+
+.dr__para__li {
+  
+            
+           
+  margin-top: 60px; 
 }
 
 
 .services {
-  text-align: center; font-family: 'RocknRoll One', sans-serif;
+  text-align: center;
+  margin-top: 60px;
 }
 
-
-.service__btns {
-    display: grid;
-   
-    margin: 0 auto;
-    border: solid;
-    flex-direction: column;
-    
+.services__btn__container {
+  margin-top: 60px;
 }
 
-
-.services__btn__indiv {
-    display: grid;
-    display: inline-block;
-    border: #0865a3 solid;
-    margin:0 auto;
-
-    
-    
-    
-    
-    
-    
-
-    
-
-}
 .services__btn__l {
-    
-    
-    
-
-    font-size: larger;
-    font-weight: 600;
-    width: 500px;
-    
+  font-size:large;
+  font-weight: 600;
+  width: 500px;
 }
-
-
    
 
 
@@ -181,8 +203,8 @@
 
 
 
-.after__btn__container {
-  background-color: rgb(225, 255, 225)
+.backgound__color{
+  background-color: rgb(225, 255, 225);
 }
 
 .after__btn__text {
@@ -197,8 +219,12 @@
   text-align: center
 }
 
+
+
 .zoom {
-  transition: transform 0.2s ease; /* Animation */
+  transition: transform 0.2s ease; 
+  max-width: 300px;
+  
   
 }
 
@@ -212,7 +238,7 @@
   background-image: url("hsp.jpg");
 
   min-height: 500px;
-
+ 
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -220,26 +246,29 @@
   position: relative;
   text-align: center;
   z-index: 100;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(hsp.jpg);
 }
 
 
 
 .parallax__inner {
-  padding-top: 3%;
-  border-style: solid;
+  padding: 30px;
+  padding-top: 50px;
+  
+  border: solid 1px;
   height: 260px;
   width: 420px;
   margin: auto;
-  border-radius: 20px;
-  text-align: center;
-  color: rgb(255, 255, 255);
+  border-radius: 20px ;
+  padding: auto;
+  color: seashell;
   background-color: rgba(0, 0, 0, 0.4);
-  font-size: larger;
-  font-weight: 500;
-  border: 1px solid;
+  font-size: large;
+  font-weight: 400;
+
 }
 
-.parallax__content {
+.parallax__hd {
   color: seashell; text: shadow 5px;
   font-family: "Playfair Display", serif;
   font-family: "Recursive", sans-serif;
@@ -253,22 +282,44 @@
         font-family: 'Merriweather', serif;
         font-weight: 500;
         background-color: #f9fbfa;
+        padding-top: 30px;
 }
 
 .insurance__subtxt {
   font-size: large;
           color: rgb(117, 117, 117);
           font-family: 'Merriweather', serif;
-          font-weight: 500;
+          font-weight: 300;
+          padding-top: 30px;
+          text-align: center;
+}
+
+
+.insurance__img {
+  width:100%;
+  max-width: 1000px;
+  margin: 0 auto;
+
+}
+.insurance__btn__div {
+  display: flex;
+  justify-content: center;
+
+  
+  background-color: #f9fbfa;
+  padding-top: 50px;
+ 
 }
 
 .insurance__divcolor {
-  background-color: #f9fbfa
+  padding-top: 100px;
+  background-color: #f9fbfa;
+  
 }
 
 .insurance__learnmore__btn {
   font-weight: 500;
-  margin-left: 40%;
+  
 
   padding: 10px;
   width: 300px;
@@ -277,24 +328,12 @@
 
 
 .footer {
-  margin-left: 35%
-}
-
-
-.foot__privacy {
-  float: left; color: rgb(138, 137, 137)
-}
-
-.foot__terms {
-  float: left; padding-left: 50px; color: rgb(138, 137, 137)
-}
-
-.foot__accessibility {
-  float: left; padding-left: 50px; color: rgb(138, 137, 137)
+  color:  rgb(138, 137, 137);;
 }
 
 .foot__end {
-  background-color: darkgreen;
+  margin-top: 30px;
+  background-color: #007357;
   color: rgb(247, 247, 247);
   text-align: center;
   padding: 15px;
