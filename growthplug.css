@@ -39,7 +39,7 @@
 .logo {
   
   height: 30%;
-  width: 35%;
+  width: 30%;
   margin-top: 15%;
 }
 
@@ -73,9 +73,7 @@
 }
 
 .newpatient__div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  text-align: center;
   margin: 30px auto;
 }
 
@@ -93,14 +91,15 @@
 }
 
 .grid__intro__btncontainer {
-  align-items: center;
+  text-align: center;
 }
 
 .intro__btn {
   font-size: larger;
   font-weight: 500;
-  width: 200px;
+  width: 90%;
   margin: 20px 20px;
+  
 }
 
 .dr {
@@ -191,7 +190,7 @@
   flex-direction: column;
   align-items: center;
 
-  margin: 0 auto;
+  margin: 12px auto;
 }
 
 .zoom:hover {
@@ -261,9 +260,8 @@
   margin: 0 auto;
 }
 .insurance__btn__div {
-  display: flex;
-  justify-content: center;
-
+  
+  text-align: center;
   background-color: #f9fbfa;
   padding-top: 50px;
 }
