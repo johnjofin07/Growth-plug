@@ -6,7 +6,7 @@
   top: 0;
   width: 100%;
 
-  font-family: "Merriweather", serif;
+  
   font-weight: 700;
   z-index: 500;
 }
@@ -67,7 +67,7 @@
   padding: 12px;
   border-color: rgb(255, 255, 255);
   border-width: 5px;
-  font-family: "Merriweather", serif;
+  
   background-color: rgb(61, 81, 255);
   color: white;
   margin-top: 30px;
@@ -78,17 +78,22 @@
   margin: 30px auto;
 }
 
-.newpatien__hd {
+.newpatient__hd {
   text-align: center;
-  font-family: "Merriweather", serif;
   margin-top: 30px;
+ 
+
+
 }
+
 
 .newpatient__sub {
   text-align: center;
   font-weight: 400;
   color: rgb(148, 148, 148);
   margin-top: 20px;
+  text-transform: uppercase;
+  font-size: large;
 }
 
 .grid__intro__btncontainer {
@@ -169,7 +174,7 @@
 
 .after__btn__text {
   text-align: center;
-  font-family: "Arvo", serif;
+  
 }
 
 .dr__names {
@@ -233,14 +238,13 @@
 .parallax__hd {
   color: seashell;
   text: shadow 5px;
-  font-family: "Playfair Display", serif;
-  font-family: "Recursive", sans-serif;
+  
 }
 
 .insurance {
   font-size: 30px;
   text-align: center;
-  font-family: "Merriweather", serif;
+  
   font-weight: 500;
   background-color: #f9fbfa;
   padding-top: 30px;
@@ -249,7 +253,7 @@
 .insurance__subtxt {
   font-size: large;
   color: rgb(117, 117, 117);
-  font-family: "Merriweather", serif;
+  
   font-weight: 300;
   padding-top: 30px;
   text-align: center;
@@ -291,3 +295,39 @@
   text-align: center;
   padding: 15px;
 }
+
+.underline {
+  text-decoration: none; 
+  position: relative; 
+  }
+ 
+
+.underline:after {
+   position: absolute;
+   content: '';
+   height: 3px;
+ 
+   bottom: -5px; 
+   margin: 0 auto;
+ left: 0;
+   right: 0;
+ width: 10%;
+
+ background: green;
+ 
+
+   -o-transition:.5s;
+   -ms-transition:.5s;
+   -moz-transition:.5s;
+   -webkit-transition:.5s;
+   transition:.5s;
+}
+
+
+
+.underline:hover:after {
+ width: 15%;
+ background: blue;
+ cursor: default;
+}
+
