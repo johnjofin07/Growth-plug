@@ -192,6 +192,7 @@
 
 .services__btn__container {
   margin-top: 60px;
+  align-items: center;
 }
 
 .services__btn__l {
@@ -225,9 +226,21 @@
 
 
 .zoom {
+  
+  
   transition: transform 0.2s ease; 
   max-width: 300px;
   
+  
+  
+  
+}
+
+.dr__container__div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
   
 }
 
@@ -241,7 +254,7 @@
   background-image: url("hsp.jpg");
 
   min-height: 500px;
- 
+ padding-top: 30px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
