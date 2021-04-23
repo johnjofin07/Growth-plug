@@ -224,14 +224,14 @@
 
 .parallax__inner {
   padding: 30px;
-  padding-top: 50px;
 
   border: solid 1px;
-  height: 260px;
-  width: 420px;
-  margin: auto;
+
+  margin: 20px auto;
   border-radius: 20px;
-  padding: auto;
+  width: 90%;
+  max-width: 400px;
+
   color: seashell;
   background-color: rgba(0, 0, 0, 0.4);
   font-size: large;
