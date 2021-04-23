@@ -286,6 +286,7 @@
 
 .footer {
   color: rgb(138, 137, 137);
+  padding-top: 50px;
 }
 
 .foot__end {
@@ -331,3 +332,23 @@
  cursor: default;
 }
 
+
+
+.timing-div {
+padding: 20px 300px;
+}
+
+
+
+
+
+.gmap_canvas {
+  overflow:hidden;background:none!important;height:500px;width:1080px;
+}
+.mapouter {
+  display: flex;
+  justify-content: center;
+  position:relative;text-align:right;height:500px;width:100%;
+  
+  overflow: hidden;
+}
