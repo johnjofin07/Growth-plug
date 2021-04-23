@@ -21,10 +21,14 @@
 }
 
 .tooth__img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  background-image: url("tooth.jpg");
+  margin: auto;
 
-  min-height: 780px;
+  height: 100vh;
 
   background-position: center;
 
@@ -32,10 +36,9 @@
 
   text-align: center;
 
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url(tooth.jpg);
 }
-
 .logo {
 
   
