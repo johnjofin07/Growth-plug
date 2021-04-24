@@ -11,6 +11,13 @@
   z-index: 500;
 }
 
+.nav__content {
+  font-size: larger;
+  font-weight: 500;
+  padding:10px 0px;
+  margin: 0 30px;
+}
+
 .dropdown-item {
   font-weight: 500px;
 }
@@ -71,7 +78,7 @@
   border-color: rgb(255, 255, 255);
   border-width: 5px;
   
-  background-color: rgb(61, 81, 255);
+  
   color: white;
   margin-top: 30px;
 }
